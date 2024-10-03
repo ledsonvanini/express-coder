@@ -24,4 +24,9 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+  @layer components {
+    .container {
+      @apply max-w-7xl mx-auto px-10;
+    }
+  }
 }
